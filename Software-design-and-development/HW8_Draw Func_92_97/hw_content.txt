@@ -1,0 +1,22 @@
+参照Function类的设计，为图形库添加一个新的形状Binary_function，用来绘制二元函数曲面。
+
+
+提交文件名为：
+
+ex08-学号.cpp
+
+注：不必将Binary_function类放到图形库的源文件（例如Graph.h）中。
+    将其完整的实现连同主程序作为单一的文件提交。
+
+附二元函数实例：
+
+z = x - y
+z = cos(x*y)   （讲义中的例子）
+z = sin(2*x)
+z = sin(2*y)
+z = sin(x+y)
+z = sin(x*x + y*y)
+z = sin(x*x + y*y) * exp(-(x*x + y*y)/10) * 2
+
+
+

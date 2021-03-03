@@ -1,0 +1,7 @@
+
+编写模板函数gather，将序列中满足条件的元素聚集到特定位置周围，并保持相对位置不变。返回一对迭代器，表示聚集后满足条件的元素范围。可以使用标准库算法。
+template <typename Iter,     // Iter models BidirectionalIterator
+                        typename Pred> // Pred models UnaryPredicate
+std::pair<Iter, Iter> gather(Iter first, Iter last, Iter pivot, Pred pred);
+编写测试程序进行测试。
+
